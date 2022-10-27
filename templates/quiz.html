@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Readiness Experience</title>
+
+<!-- FONTS LINK -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Peddana&family=Questrial&family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+<!--  BOOTSTRAP LINK    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--  CSS FILE LINK    -->
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+
+    
+    </head>
+<!--  BODY SECTION  -->
+  <body>
+
+<!-- JAVASCRIPT FILE LINK -->
+
+
+<!-- <script type="text/javascript"
+  src="{{ url_for('static', filename='script.js') }}"> </script> -->
+<!-- <script src ="{{ url_for('static', filename='script.js') }}"></script> -->
+
+
+    
+    <h1></h1>
+<!-- NAVIGATION BAR -->
+ <nav class="navbar navbar-expand-lg" style="background-color: #d69f7e;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://flask-template-v2022.sifatunnoor.repl.co/"><strong>College Readiness Experience</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://flask-template-v2022.sifatunnoor.repl.co/quiz">Quiz</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://flask-template-v2022.sifatunnoor.repl.co/creditcard">Credit Card Guide</a></li>
+            <li><a class="dropdown-item" href="https://flask-template-v2022.sifatunnoor.repl.co/mentalhealth">Mental Health</a></li>
+          <li><a class="dropdown-item" href="https://flask-template-v2022.sifatunnoor.repl.co/internships">Internships</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Contact Us</a>
+        </li>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+
+<section class="quiz">
+<!-- FILLER SECTION -->
+	<h1 class="quiz-header" style="font-family: 'Questrial', sans-serif;"><br>Are you ready for college?</h1>
+  <br>
+  <br>
+	</header>
+
+	<main>
+
+		<h3 id="fixerupper"><b>Question 1: </b>Do you personally think you're prepared for a new college experience?</h3>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="https://images.squarespace-cdn.com/content/v1/5759aeae3c44d8c286404907/1565463427182-NVX1RQ3LJ2TTOK2V4REL/college+student.gif">
+        <br>
+        <button id="q1a1">Yes</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://y.yarn.co/5220121c-54bb-4658-9bf6-1fb94018a804_text.gif">
+        <br>
+        <button id="q1a2">No</button>
+      </div>
+
+    </div> 
+    
+    <h3 id="fixerupper"><b>Question 2: </b>Do you know what you want to major in at college?</h3>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="https://c.tenor.com/HUv9dDJYA9MAAAAM/spongebob-yeah-i-know.gif" width="500">
+        <br>
+        <button id="q2a1">Yes</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://c.tenor.com/RYvCCepol0gAAAAM/elmo-shrug.gif" width="500">
+        <br>
+        <button id="q2a2">No. I'm still thinking about it.</button>
+      </div>
+
+    </div> 
+    
+    <h3 id="fixerupper"><b>Question 3: </b>Do you have specific goals you want to accomplish within the next four years?</h3>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="https://media0.giphy.com/media/fH64u5y85GaibsUOvQ/200.gif">
+        <br>
+        <button id="q3a1">Yes</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="https://c.tenor.com/LiGdqHJiCvQAAAAM/its-complicated-complicated.gif">
+        <br>
+        <button id="q3a2">No</button>
+      </div>
+
+    </div> 
+    
+    <h3 id="result">It seems that ...</h3>
+    <br><button id="restart">Restart</br></button>
+</section>
+<!-- JS LINK     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src = "static/js/script.js"> </script>
+  </body>
+</html>

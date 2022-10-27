@@ -1,0 +1,167 @@
+body {
+  padding: 0px;
+  font-family: 'Cormorant SC', serif;
+  background: #edc4b3
+/*   background-color: #CD853f; */
+}
+
+.p{
+  padding: 5px;
+}
+
+.navbar-brand {
+  color: black
+/*   color: #800000; */
+}
+
+/* .navbar navbar-expand-lg{
+  background.color: #dee2ff
+} */
+
+.pageheading{
+  font-family: 'Oswald', sans-serif;
+}
+
+.col-md-7{
+  margin-left: 20px;
+  margin-top: 20 px
+}
+
+.dropdown-item {
+  color: black
+/*   color: #800000; */
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* credit card html */
+
+.container5 {
+float: none;
+}
+#card-info {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif; 
+}
+
+#card-title {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1.capitalize {
+  text-transform: capitalize;
+}
+
+h6 {
+  color: #787878;
+  font-family: Garamond;
+}
+
+h5 {
+  font-family: Garamond;
+}
+
+h4 {
+  font-size: 20px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.card-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#list-items {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* index html */
+.beginning {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+
+.col-lg-4 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.beginning2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 10px;
+}
+/* color list
+linear-gradient(to bottom right, lightcoral ,blue
+
+*/
+
+/* links to possible color pallets: https://coolors.co/palettes/popular/neutral 
+https://coolors.co/palette/edc4b3-e6b8a2-deab90-d69f7e-cd9777-c38e70-b07d62-9d6b53-8a5a44-774936 */
+
+/* possible fonts
+font-family: 'Oswald', sans-serif;*/
+
+/* <nav class="navbar navbar-expand-lg" style="background-color: #FFDEAD;"> */
+
+/* quiz.html */
+.question {
+ margin-top: 2em;
+ margin-bottom: 2em;
+ text-align: center;
+ display: flex;
+}
+  
+.answer-choice {
+/*   margin: 5px; */
+/*   padding: 2px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.answer-choice img {
+  display: block;
+  height: 255px;
+  padding-left:50px;
+  padding-right:50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button { 
+  background-color: #f5eae5;
+  
+  cursor: pointer;
+  font-family: monospace;
+  text-align:center;
+}
+
+button:hover {
+  background-color:#f4c694;
+}
+
+.quiz{
+  text-align: center
+}
+
+.quiz-header {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+
+#fixerupper {
+ font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize; 
+}
+#result {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;  
+}

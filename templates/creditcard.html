@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Readiness Experience</title>
+
+<!-- FONTS LINK -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Peddana&family=Questrial&family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+    
+<!--  BOOTSTRAP LINK    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--  CSS FILE LINK    -->
+    <link href="static/css/style.css" rel="stylesheet" type="text/css" />
+<style>
+  .card{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  position: inherit;
+}
+</style>
+</head>
+<!--  BODY SECTION  -->
+  <body>
+    <h1></h1>
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-lg" style="background-color: #d69f7e;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://flask-template-v2022.sifatunnoor.repl.co/"><strong>College Readiness Experience</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://flask-template-v2022.sifatunnoor.repl.co/quiz">Quiz</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://flask-template-v2022.sifatunnoor.repl.co/creditcard">Credit Card Guide</a></li>
+            <li><a class="dropdown-item" href="https://flask-template-v2022.sifatunnoor.repl.co/mentalhealth">Mental Health</a></li>
+          <li><a class="dropdown-item" href="https://flask-template-v2022.sifatunnoor.repl.co/internships">Internships</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Contact Us</a>
+        </li>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<br>   
+<!-- CHECKLIST SECTION -->
+<section id="card-info">
+  <h1 class="capitalize" style="font-family: 'Questrial', sans-serif;"><br>Welcome to your quick and simple credit card guide!</br></h1>
+      <h4>One thing we commonly notice amongst new students is that they are not educated on their options when it comes to building credit. The purpose of this page is to provide students with direct options that can assist them in starting their credit journey. Credit is an important part of our current society and getting a head start is the ultimate best option.</h4><br>
+  
+      <h5>Take a moment to consider asking yourself these reflection questions before making the impactful decision of owning a credit card.</h5>
+  <form id="list-features" action="/creditcard.html">
+    <input type="checkbox" id="question1" name="question1">
+    <label for="item1"><i>Am I financially able to pay off my balance at the end of each month?</i></label><br>
+    <input type="checkbox" id="question2" name="question2">
+    <label for="item2"><i>Is this the right card for my current needs?</i></label><br>
+    <input type="checkbox" id="question3" name="question3">
+    <label for="item3"><i>What type of purchases am I planning to make?</i></label>
+  </form><br>
+  
+      <h6>Through research, we have compiled this short list of the three credit cards that are best for students pursing higher education with an interest in staring their credit journey. </h6>
+</section>
+<!--  CARD SECTION    -->
+<section class="container5">
+  <div class="row">
+    <div class="card col" style="width: 18rem;"> 
+      <img src="https://www.discover.com/content/dam/discover/en_us/credit-cards/card-acquisitions/student/images/product/Student%20Card%20Trio.png" alt="Discover Student Cash Back">
+      <div class="card-body">
+        <h5 id="card-title">Discover® Student Cash Back</h5>
+        <p class="card-text">Some benefits of the Discover® Card include:</p>
+        <ol id="list-items">
+          <li><b>No annual fee</b></li>
+          <li>No credit score required to apply</li>
+          <li>5% cash back on everyday purchases from certain stores</li>
+          <li>Unlimitied Cashback Match</li>
+        </ol>
+        <a href="https://www.discover.com/credit-cards/student-credit-card/it-card.html" class="btn btn-primary">Learn more on their website!</a>
+      </div>
+    </div>
+    
+    <div class="card col" style="width: 18rem;">
+      <br>
+      <br>
+      <br>
+      <img src="https://ecm.capitalone.com/WCM/card/products/savorone-card-art.png" class="rounded mx-auto d-block" alt="Capital One Savor One Card">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="card-body">
+        <h5 id="card-title">Capital One Savor One Card</h5>
+        <p class="card-text">Some benefits of the Capital One Card include:</p>
+        <ol id="list-items">
+          <li><b>No annual fee</b></li>
+          <li> 3% cashback on select establishments</li>
+          <li>No foreign transaction fees</li>
+          <li> Access to Capital One Travel</li>
+        </ol>
+        <a href="https://www.capitalone.com/credit-cards/savorone-student/" class="btn btn-primary">More information here!</a>
+      </div>
+    </div>
+    
+    <div class="card col" style="width: 18rem;">
+      <img src="https://tinyurl.com/4ttyssa3" alt="Deserve EDU Mastercard">
+      <br>
+      <br>
+      <div class="card-body">
+        <h5 id="card-title">Deserve® EDU Mastercard</h5>
+        <p class="card-text">Some benefits of the Deserve® EDU Mastercard include:</p>
+        <ol id="list-items">
+          <li><b>No annual fee</b></li>
+          <li> Amazon Prime Student for a Year</li>
+          <li>Cellphone Protection Coverage</li>
+          <li>No international transaction fees</li>
+        </ol>
+        <a href="https://www.deserve.com/card-types/consumer-student-card" class="btn btn-primary">Check out their website!</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- JS LINK     -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+<!--  
+    <nav class="navbar navbar-expand-lg bg-blue">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://flask-template-v2022.sifatunnoor.repl.co/"><strong>College Readiness Experience</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pg2.html">Quiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Resources</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>-->
